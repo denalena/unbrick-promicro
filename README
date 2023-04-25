@@ -1,0 +1,7 @@
+Run the `flash.sh` script to unbrick a sparkfun pro micro 5V 16MHz (because it's impossible to set the right port, compile the sketch, etc via the Arduino IDE during 8 seconds)
+
+- connect board via usb
+- connect RST to GND
+- run flash.sh 
+
+You also can provide a filepath to flash a different file.
