@@ -1,3 +1,5 @@
+> Warning: Use at your own risk. I only tried this with this pro micro clone: https://archive.is/I7Rhd
+
 Run the `flash.sh` script to unbrick a sparkfun pro micro 5V 16MHz (because it's impossible to set the right port, compile the sketch, etc via the Arduino IDE during 8 seconds)
 
 - connect board via usb
@@ -5,3 +7,6 @@ Run the `flash.sh` script to unbrick a sparkfun pro micro 5V 16MHz (because it's
 - run flash.sh 
 
 You also can provide a filepath to flash a different file.
+
+The compiled sketch that is in this repo was compiled with the Arduino IDE and just contanined empty setup() and loop() functions. You can replace it with your own compiled sketch or specify a filepath to it as the first argument to `flash.sh`.
+
