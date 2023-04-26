@@ -10,3 +10,6 @@ You also can provide a filepath to flash a different file.
 
 The compiled sketch that is in this repo was compiled with the Arduino IDE and just contanined empty setup() and loop() functions. You can replace it with your own compiled sketch or specify a filepath to it as the first argument to `flash.sh`.
 
+avrdude: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.26, BuildID[sha1]=046f1dcaec1701537fa6735b6551524d9a12f769, stripped
+avrdude version 6.3-20190619, URL: <http://savannah.nongnu.org/projects/avrdude/>
+ 
