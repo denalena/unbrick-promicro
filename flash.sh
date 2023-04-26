@@ -6,7 +6,7 @@ FILE=./init.ino.hex # default compiled sketch; can be overwritten by calling the
 PORT=/dev/ttyACM0 # default port
 
 # Sparkfun ProMicro 5V 16MHz specific settings
-CONF=./conf/avrdude-sparkfun-promicro.conf
+CONF=./avrdude-sparkfun-promicro.conf
 DEVICE=atmega32u4
 PROGRAMMER=avr109
 BAUD=57600
@@ -31,7 +31,7 @@ fi
 # Flags below copied from Arduino IDE logs, April 2023
 # Run `avrdude -h` for descriptions
 
-./bin/avrdude \
+./avrdude \
 	-C${CONF} \
 	-v \
 	-V \
