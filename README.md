@@ -1,7 +1,6 @@
-> Warning: Use at your own risk. I only tried this with this pro micro clone: https://archive.is/I7Rhd
+> ⚠️  Warning: Use at your own risk. I only tried this with this pro micro clone: https://archive.is/I7Rhd
 
-Run the `flash.sh` script to unbrick a sparkfun pro micro 5V 16MHz (because it's impossible to set the right port, compile the sketch, etc via the Arduino IDE during 8 seconds)
-
+Run the `flash.sh` script to unbrick a sparkfun pro micro 5V 16MHz, in case you also have trouble selecting the right port and board and compiling the sketch in 8 seconds (more about that [on my blog](https://blog.ledeniz.de/posts/2023-04-23-unbrick-promicro/)).
 - connect board via usb
 - connect RST to GND
 - run flash.sh 
