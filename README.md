@@ -2,13 +2,14 @@
 
 > ⚠️  Warning: Use at your own risk. I only tried this with this pro micro clone: https://archive.is/I7Rhd
 
-Run the `flash.sh` script to unbrick a sparkfun pro micro 5V 16MHz, in case you also have trouble selecting the right port and board and compiling the sketch in 8 seconds (more about that [on my blog](https://blog.ledeniz.de/posts/2023-04-23-unbrick-promicro/)).
+In case you bricked your board and also have trouble selecting the right port and board and compiling the sketch and uploading it in under 8 seconds (more about that [on my blog](https://blog.ledeniz.de/posts/2023-04-23-unbrick-pro-micro/)).
+
 - Connect board via usb
 - Connect `RST` to `GND` and release again
 - Run `flash.sh` 
 
 ## Sketch
-`init.ino.hex` was compiled with the Arduino IDE for the Sparkfun 5V 16MHz Pro Micro and just contained empty setup() and loop() functions. You can replace it with your own compiled sketch or specify a filepath to it as the first argument to `flash.sh`.
+`init.ino.hex` was compiled with the Arduino IDE for the Sparkfun 5V 16MHz Pro Micro and just contained empty `setup()` and `loop()` functions. You can replace it with your own compiled sketch or specify a filepath to it as the first argument to `flash.sh`.
 
 ## avrdude
 ```
